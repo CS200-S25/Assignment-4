@@ -16,7 +16,9 @@ For the following GUI for a recipe management program:
 As a resource, it would be helpful to browse through a list of JavaFX controls: https://docs.oracle.com/javafx/2/ui_controls/jfxpub-ui_controls.htm and a list of JavaFX layouts: https://docs.oracle.com/javafx/2/layout/builtin_layouts.htm.
 
 ## Part 2: Continuing your text-based adventure game
-Complete your text-based adventure game by incorporating your hierarchy of classes representing the items that are available in your game into the rest of your game. Your Game class must be updated with the following addition to `parseCommand()` which will require you to create a new method for `drop()` and `eat()`. If a user drops an item from their inventory (by typing the string corresponding to the item) then the item is added to the treasure chest of the current room. If a user eats a food item, then their health should increase.
+Complete your text-based adventure game by updating two aspects: 1) incorporating your hierarchy of classes representing the items that are available in your game into the rest of your game, 2) updating the health points for a player based on damage occured from animals in rooms. 
+
+For 1) your Game class must be updated with the following addition to `parseCommand()` which will require you to create a new method for `drop()` and `eat()`. If a user drops an item from their inventory (by typing the string corresponding to the item) then the item is added to the treasure chest of the current room. If a user eats a food item, then their health should increase.
 
 ```
 public void parseCommand(String input) {
@@ -50,7 +52,7 @@ public void parseCommand(String input) {
     }
 ```
 
-You must also update your game to reduce a player's health by the damage of the animal when the player enters a room with that animal.
+For 2) you must also update your game to reduce a player's health by the damage of the animal when the player enters a room with that animal.
 
 ## COLLABORATION
 This assignment is an individual assignment. You can discuss this assignment with your peers, TA and instructor. You cannot show code to your peers, you each write your own solutions. You can show code to the TAs and instructor. Additionally, you cannot use generative AI or online resources that are not linked from our course website to complete this assignment.  
