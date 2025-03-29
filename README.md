@@ -49,3 +49,15 @@ public void parseCommand(String input) {
         }
     }
 ```
+
+You must also update your game to reduce a player's health by the damage of the animal when the player enters a room with that animal.
+
+## COLLABORATION
+This assignment is an individual assignment. You can discuss this assignment with your peers, TA and instructor. You cannot show code to your peers, you each write your own solutions. You can show code to the TAs and instructor. Additionally, you cannot use generative AI or online resources that are not linked from our course website to complete this assignment.  
+
+## SUBMISSION
+Submit the following files to Gradescope for Assignment 1:
+* take a picture of your solutions to Part 1 and upload a .png or .jpeg file to Gradescope
+* upload your code for the recipe management GUI and all of the files for your game to Gradescope
+
+Note: You can resubmit your assignment as many times as needed until the deadline. Every time you resubmit, make sure you submit *all* of the files for your assignment every time.
